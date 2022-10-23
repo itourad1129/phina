@@ -1,0 +1,10 @@
+//シーン共通処理
+
+function G_SCENE_INIT(){ //シーン初期化共通処理
+  if(WINDOW_NORMAL != null) G_NORMAL_WINDOW_DELETE();
+  if(WINDOW_LIST != null) G_UI_WINDOW_LIST_DELETE();
+  if(WINDOW_PARTY_INFO != null) G_UI_DELETE_PARTY_INFO_WINDOW();
+  if(WINDOW_PLAYER_PROFILE != null) G_UI_DELETE_PLAYER_PROFILE();
+  if(MAP_SCENE_OBJ != null) MAP_SCENE_OBJ = null;
+  ACTIVE_GUILD_ROOM_GUILD_ID = -1;
+}

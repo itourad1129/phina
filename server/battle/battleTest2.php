@@ -1,0 +1,31 @@
+<?php
+include_once "../../module/vitalityCount/index.php";
+include_once "../../module/item/index.php";
+include_once "../../module/levelUpController/index.php";
+include_once "../../module/party/index.php";
+include_once "../../module/enemy/index.php";
+include_once "../../module/playerStatus/index.php";
+include_once "../../module/equipItem/index.php";
+include_once "../../module/card/index.php";
+include_once "../../module/formation/index.php";
+include_once "../../module/buff/index.php";
+include_once "../../module/card/index.php";
+include_once "../../module/card/cardData.php";
+include_once "../../module/card/prizeCardData.php";
+include_once "../../module/skill/skillData.php";
+include_once "../../module/buff/buffData.php";
+include_once "../../module/buff/index.php";
+include_once "../../module/playerCard/PlayerCardData.php";
+
+include_once 'battleAction.php';
+include_once 'battleBuff.php';
+include_once 'battleEntryData.php';
+include_once 'battleInstance.php';
+include_once 'battleLog.php';
+include_once 'battlePartyInstance.php';
+include_once 'effectArea.php';
+include_once 'action.php';
+include_once 'addAction.php';
+include_once 'battleInstanceControle.php';
+include_once 'autoAction.php';
+include_once 'createBattleInstance.php';
